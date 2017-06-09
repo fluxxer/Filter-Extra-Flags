@@ -14,7 +14,7 @@
 //TODO: Make a native 4chan version, only filter and check new posts when updating
 $(window).load(function(){
 	dBug("Document is ready!");
-	var filteredRegions = ["California", "Iroquois"];
+	var filteredRegions = ["California", "Iroquois"]; //replace these with any you like
 	var regions = [];
 
 	document.addEventListener('ThreadUpdate', function (e) {
